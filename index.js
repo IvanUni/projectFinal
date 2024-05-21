@@ -2,7 +2,7 @@ let express = require(`express`);
 let app = express();
 let cors = require('cors')
 app.use(cors())
-let port = 3000;
+let port = 3005;
 
 app.listen(port, function () {
     console.log(`Сервер запущен: http://localhost:${port}`)
